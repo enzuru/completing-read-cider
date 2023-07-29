@@ -1,25 +1,21 @@
-# completing-read-sly
+# completing-read-cider
 
-This is a simple package that provides `completing-read` for Sly symbols. When a symbol is selected, a definition of the symbol is shown.
+This is a simple package that provides `completing-read` for CIDER symbols. When a symbol is selected, a definition of the symbol is shown.
 
 Use the completion framework of your choice, whether [ivy](https://github.com/abo-abo/swiper), [vertico](https://github.com/minad/vertico), [mct](https://git.sr.ht/~protesilaos/mct), or just the standard icomplete.
-
-I have only tested this with SBCL, as that is the only Common Lisp distribution that I use.
-
-I run the completion query using `(apropos-list "" nil t)`. If I need to do something else for your Common Lisp distribution, please submit a pull request.
 
 ## Installation
 
 ```lisp
 (straight-use-package
- '(completing-read-sly
+ '(completing-read-cider
    :type git
    :host github
-   :repo "enzuru/completing-read-sly"))
-(require 'completing-read-sly)
+   :repo "enzuru/completing-read-cider"))
+(require 'completing-read-cider)
 
-(define-key common-lisp-mode-map (kbd "C-h s") 'completing-read-sly-describe-symbol)
-(define-key sly-mrepl-mode-map (kbd "C-h s") 'completing-read-sly-describe-symbol)
+(define-key common-lisp-mode-map (kbd "C-h s") 'completing-read-cider-describe-symbol)
+(define-key cider-mrepl-mode-map (kbd "C-h s") 'completing-read-cider-describe-symbol)
 ```
 
 ### Using with Ivy
