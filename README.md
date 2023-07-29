@@ -14,8 +14,8 @@ Use the completion framework of your choice, whether [ivy](https://github.com/ab
    :repo "enzuru/completing-read-cider"))
 (require 'completing-read-cider)
 
-(define-key common-lisp-mode-map (kbd "C-h s") 'completing-read-cider-describe-symbol)
-(define-key cider-mrepl-mode-map (kbd "C-h s") 'completing-read-cider-describe-symbol)
+(define-key clojure-mode-map (kbd "C-h s") 'completing-read-cider-describe-symbol)
+(define-key cider-repl-mode-map (kbd "C-h s") 'completing-read-cider-describe-symbol)
 ```
 
 ### Using with Ivy
