@@ -26,4 +26,4 @@ Use the completion framework of your choice, whether [ivy](https://github.com/ab
 
 ## License
 
-Licensed under the GPLv3; copyright is assigned to my eponymous nonprofit [enzu.ru](https://enzu.ru)
+Licensed under the GPLv3; copyright is assigned to my eponymous charity [enzu.ru](https://enzu.ru)
