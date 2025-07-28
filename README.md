@@ -23,7 +23,3 @@ Use the completion framework of your choice, whether [ivy](https://github.com/ab
 ```lisp
 (setq completing-read-function #'ivy-completing-read)
 ```
-
-## License
-
-Licensed under the GPLv3; copyright is assigned to my eponymous charity [enzu.ru](https://enzu.ru)
