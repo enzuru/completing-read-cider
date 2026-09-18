@@ -23,3 +23,7 @@ Use the completion framework of your choice, whether [ivy](https://github.com/ab
 ```lisp
 (setq completing-read-function #'ivy-completing-read)
 ```
+
+## License
+
+This package is free software under the GNU General Public License, version 3 or any later version. See the [LICENSE](LICENSE) file for the full text.
